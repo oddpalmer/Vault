@@ -1,0 +1,12 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "baseFontSizeAction": true,
+  "baseFontSize": 16,
+  "accentColor": "",
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "textFontFamily": "Liberation Mono,Maple Mono CN",
+  "monospaceFontFamily": "Liberation Mono,Maple Mono CN",
+  "nativeMenus": false
+}
