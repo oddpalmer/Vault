@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d61d941e579a1ed8",
+        "id": "2c3d473e9089d1f3",
         "type": "tabs",
         "children": [
           {
-            "id": "cc38ce2575172f98",
+            "id": "e04f23b16e9b3998",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "记录/周记/2026 年第 20 周.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026 年第 20 周"
             }
           }
         ]
@@ -49,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#question",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5100555419922
+    "width": 214.50714111328125
   },
   "right": {
     "id": "450542cbc28b4fcc",
@@ -114,31 +118,18 @@
             }
           },
           {
-            "id": "df1d60cd6435bd02",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
             "id": "d10f51bd7d7392fc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "记录/周记/2026 年第 20 周.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2026 年第 20 周 的大纲"
             }
           },
           {
@@ -171,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,56 +177,58 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "497a5f56f31f3f5a",
+  "active": "e04f23b16e9b3998",
   "lastOpenFiles": [
+    "Templates/Weekly.md",
+    "记录/周记/2026 年第 20 周.md",
+    "记录/日记/2026-05-15_周五.md",
+    "学习/OS/多语言锁实现/Java锁.md",
+    "学习/OS/并发与多线程.md",
+    "学习/Randomly/to do shits.md",
+    "学习/OS/待整理.md",
+    "项目/大事件/大事件接口文档.md",
+    "项目/大事件/项目流程.md",
+    "项目/大事件/后端/Tomcat.md",
+    "项目/大事件/后端/零散碎片待整理.md",
+    "项目/大事件/后端/PageHelper.md",
+    "Templates/Notes.md",
+    "项目/数字万灵/UML建模任务分配.md",
+    "Templates/Monthly.md",
+    "Templates/Daily.md",
+    "学习/python3.md",
+    "记录/日记/未命名.md",
+    "学习/python.md",
+    "学习/Randomly/Redis.md",
+    "学习/python111.md",
+    "学习/2605151408 python 111.md",
+    "未命名.md",
+    "学习.md",
+    "记录/周记/未命名",
+    "记录/周记/2026第20.md",
+    "记录/周记/20.md",
+    "记录/月记",
+    "记录/周记",
+    "记录/日记",
+    "学习",
     "未命名.base",
-    "大事件/前端/8.登陆界面.md",
-    "大事件/前端/2.要点总结.md",
-    "大事件/前端/1.文件分析.md",
-    "大事件/前端/0.项目结构.md",
-    "大事件/前端/3.axios拦截器.md",
-    "大事件/前端/7.布局页面.md",
-    "大事件/前端/10.文章内容管理.md",
-    "大事件/大事件接口文档.md",
-    "大事件/Vue/Vue3.md",
-    "Randomly/UML.md",
-    "Randomly/python.md",
-    "Randomly/Redis.md",
-    "Randomly/to do shits.md",
-    "大事件/后端/问题.md",
-    "Randomly",
-    "大事件/后端/零散碎片待整理.md",
-    "大事件/后端",
-    "大事件/调用顺序.md",
-    "大事件/项目目录.md",
-    "大事件/前端",
-    "Randomly/未命名.md",
-    "Randomly/MAKEFILE.md",
-    "大事件/assets/Pasted image 20260505204233.png",
-    "Randomly/dev-config.md",
-    "大事件/Vue/assets/compos1.gif",
-    "大事件/Vue/assets/opts.gif",
-    "大事件/Vue/assets/compos2.gif",
-    "大事件/Vue/assets",
-    "大事件/Vue",
-    "assets/Pasted image 20260505000807.png",
-    "assets",
-    "Randomly/OS/调度.md",
-    "UML/状态机.md",
-    "未命名 1.md",
-    "复合句学习指南.md",
-    "英语四级备考学习清单.md",
-    "大事件/assets/Pasted image 20260429154606.png",
-    "大事件/assets/Pasted image 20260429150558.png",
-    "大事件/assets/Pasted image 20260429115529.png",
-    "大事件/assets/Pasted image 20260429010540.png",
-    "大事件/assets/Pasted image 20260429010428.png",
-    "课设/assets",
-    "大事件/assets",
-    "大事件",
-    "Randomly/课设"
+    "项目",
+    "Templates",
+    "记录",
+    "未命名.canvas",
+    "学习/OS/多语言锁实现",
+    "学习/OS/assets/Pasted image 20260512213604.png",
+    "学习/OS/assets/Pasted image 20260512213602.png",
+    "学习/OS/assets/Pasted image 20260512181820.png",
+    "项目/大事件/Vue/assets/Pasted image 20260511094024.png",
+    "项目/大事件/后端/assets/Pasted image 20260429010332.png",
+    "项目/大事件/Vue/assets/opts.gif",
+    "项目/大事件/Vue/assets/compos2.gif",
+    "项目/大事件/Vue/assets/compos1.gif",
+    "项目/大事件/后端/assets/Pasted image 20260505204233.png",
+    "assets/Pasted image 20260505000807.png"
   ]
 }

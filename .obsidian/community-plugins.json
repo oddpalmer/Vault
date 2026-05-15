@@ -1,5 +1,7 @@
 [
-  "obsidian-vimrc-support",
-  "vim-im-select",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "quickadd",
+  "dataview",
+  "obsidian-tasks-plugin"
 ]
