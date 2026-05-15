@@ -15,16 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "记录/日记",
+      "folder": "Daily",
       "template": "Templates/Daily.md"
     },
     {
-      "folder": "记录/周记",
+      "folder": "Weekly",
       "template": "Templates/Weekly.md"
-    },
-    {
-      "folder": "记录/月记",
-      "template": "Templates/Monthly.md"
     }
   ],
   "enable_file_templates": false,

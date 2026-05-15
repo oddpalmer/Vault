@@ -12,9 +12,22 @@ const mondayDate = tp.date.weekday("YYYY-MM-DD", 0);
 const sundayDate = tp.date.weekday("YYYY-MM-DD", 6);
 await tp.file.rename(fileName);
 -%>
-
-(<% monday %>) 至 (<% sunday %>)
 ### <% fileName %>
+(<% monday %>) 至 (<% sunday %>)
+
+### 本周新建笔记
+```dataview
+table without id
+file.link as "笔记",
+file.folder as "目录",
+status as "状态",
+dateformat(file.ctime, "yyyy-MM-dd") as "创建日期"
+from "项目" or "学习"
+where file.ctime >= date(<% mondayDate %>)
+and file.ctime <= date(<% sundayDate %>)
+sort file.ctime desc
+```
+
 
 ### 已完成任务
 ```dataview
@@ -33,15 +46,7 @@ and file.name <= "<% sunday %>"
 and !completed
 ```
 
-### 本周新建笔记
-```dataview
-table without id
-file.link as "笔记",
-file.folder as "目录",
-status as "状态",
-dateformat(file.ctime, "yyyy-MM-dd") as "创建日期"
-from "项目" or "学习"
-where file.ctime >= date(<% mondayDate %>)
-and file.ctime <= date(<% sundayDate %>)
-sort file.ctime desc
-```
+### 学习收获
+
+
+### 总结
