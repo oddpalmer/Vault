@@ -22,7 +22,7 @@ file.link as "笔记",
 file.folder as "目录",
 status as "状态",
 dateformat(file.ctime, "yyyy-MM-dd") as "创建日期"
-from "项目" or "学习"
+from "Projects" or "Notes"
 where file.ctime >= date(<% mondayDate %>)
 and file.ctime <= date(<% sundayDate %>)
 sort file.ctime desc
@@ -32,7 +32,7 @@ sort file.ctime desc
 ### 已完成任务
 ```dataview
 task
-from "记录/日记"
+from "Daily"
 where file.name >= "<% monday %>"
 and file.name <= "<% sunday %>"
 and completed
@@ -40,7 +40,7 @@ and completed
 ### 未完成任务
 ```dataview
 task
-from "记录/日记"
+from "Daily"
 where file.name >= "<% monday %>"
 and file.name <= "<% sunday %>"
 and !completed
